@@ -65,8 +65,9 @@ const NavStyles = css`
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
+    font-weight:bold;
   }
 
   li a:hover {
@@ -93,17 +94,20 @@ const SocialLinks = styled.div`
   a:last-of-type {
     padding-right: 20px;
   }
+  color: #000;
+
 `;
 
 const SubscribeButton = styled.a`
   display: block;
   padding: 4px 10px;
-  border: #fff 1px solid;
-  color: #fff;
+  border: #000 2px solid;
+  color: #000;
   font-size: 1.2rem;
   line-height: 1em;
   border-radius: 10px;
   opacity: 0.8;
+  font-weight: bold;
 
   :hover {
     text-decoration: none;

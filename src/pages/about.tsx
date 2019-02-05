@@ -17,7 +17,6 @@ const PageTemplate = css`
   }
 `;
 
-
 const About: React.FunctionComponent = () => (
   <IndexLayout>
     <Helmet>
@@ -38,22 +37,29 @@ const About: React.FunctionComponent = () => (
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Ghost is professional publishing platform designed for modern journalism. This is a
-                demo site of a basic Ghost install to give you a general sense of what a new Ghost
-                site looks like when set up for the first time.
+                Cnvrsion is an ecommerce blog designed to provide readers with a clear method to
+                profitability in ecommerce. The blog is designed and run by me (Aldrin Clement).
+                Since I don't like speaking about my self I thought I'd share what others have
+                written about me since then its not considered bragging.
               </p>
               <blockquote>
                 <p>
-                  If you'd like to set up a site like this for yourself, head over to{' '}
-                  <a href="https://ghost.org">Ghost.org</a> and start a free 14 day trial to give
-                  Ghost a try!
+                  Aldrin is an ecommerce wunderkind that graduated from college in his hometown by
+                  age 20 and spent the next few years at Deloitte Digital helping top Fortune 500
+                  companies bring their ecommerce departments into the modern age. 
                 </p>
+                <br/>
+                <p>A prolific
+                  programmer, designer, and marketer, he's well versed in the entire technology and
+                  marketing stack required for ecommerce. Through his experience he's cultivated and
+                  documented a set of strategies and methods for building great ecommerce
+                  experiences that he enjoys sharing with others.</p>
               </blockquote>
               <p>
-                If you're a developer: Ghost is a completely open source (MIT) Node.js application
-                built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite,
-                and is publicly available <a href="https://github.com/TryGhost/ghost">on Github</a>.
+                If you're like me when I started my ecommerce journey, you're probably thinking "where the hell do I start?". When I first began working on first ecommerce store I was desperate to work for myself. I wanted to make a living for myself rather than working a 9-5 job. I'd seen people posting about their success online and wanted in on the action. 
               </p>
+
+              <p>Unsurprisingly, when I started I had a much harder time than I anticipated. I had about $500 saved and blew the first $300 getting my logo, site, hosting, and apps installed. Definitely not what I would do if I could do it again. </p>
               <p>
                 If you need help with using Ghost, you'll find a ton of useful articles on{' '}
                 <a href="https://help.ghost.org">our knowledgebase</a>, as well as extensive{' '}

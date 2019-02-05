@@ -31,9 +31,9 @@ export const SiteTitle = styled.h1`
 export const SiteDescription = styled.h2`
   z-index: 10;
   margin: 0;
-  padding: 5px 0;
+  padding: 10px 0;
   font-size: 2.2rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5px;
   opacity: 0.8;
 `;
@@ -76,9 +76,9 @@ export const SiteHeader = css`
   position: relative;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #fff;
+  color: #000;
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
-  background: ${darken('0.05', colors.darkgrey)} no-repeat center center;
+  background: ${darken('0.05', colors.yellow)} no-repeat center center;
   background-size: cover;
 `;
 

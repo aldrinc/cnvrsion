@@ -8,7 +8,7 @@ const SiteNavLogoStyles = css`
   flex-shrink: 0;
   display: block;
   margin-right: 24px;
-  padding: 11px 0;
+  padding: 8px 0 16px 0px;
   color: #fff;
   font-size: 1.7rem;
   line-height: 1em;
