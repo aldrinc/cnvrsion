@@ -1,9 +1,9 @@
 - id: Ghost
-  avatar: avatars/aldrin.jpg
+  avatar: avatars/aldrin.png
   bio: 7 figure eCommerce entrepreneur, ex-Deloitte Digital eCommerce Consultant, graduated college 2 years early, designer
   twitter: TryGhost
   facebook: ghost
-  website: https://aldrinclement.com/
+  website: https://ghost.org/
   location: On a plane
 - id: Another Author
   avatar: avatars/ghost.png
