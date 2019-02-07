@@ -96,7 +96,7 @@ const SubscribeForm: React.FunctionComponent = () => {
       >
         {/* This is required for the form to work correctly  */}
         <FormGroup className="form-group">
-          <SubscribeEmail className="subscribe-email" type="email" name="EMAIL" placeholder="youremail@example.com" />
+          <SubscribeEmail className="subscribe-email" type="email" name="EMAIL" placeholder="Your best email" />
         </FormGroup>
         <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
           <input type="text" name={config.mailchimpName} tabIndex={-1} />

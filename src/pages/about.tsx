@@ -20,7 +20,9 @@ const PageTemplate = css`
 const About: React.FunctionComponent = () => (
   <IndexLayout>
     <Helmet>
-      <title>About</title>
+                <meta charSet="utf-8" />
+                <title>About Me | Cnvrsion.com</title>
+                <link rel="canonical" href="http://cnvrsion.com/about" />
     </Helmet>
     <Wrapper css={PageTemplate}>
       <header css={[outer, SiteHeader]}>
@@ -31,7 +33,7 @@ const About: React.FunctionComponent = () => (
       <main id="site-main" className="site-main" css={[SiteMain, outer]}>
         <article className="post page" css={[PostFull, NoImage]}>
           <PostFullHeader>
-            <PostFullTitle>About</PostFullTitle>
+            <PostFullTitle>About the Author</PostFullTitle>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
@@ -46,30 +48,20 @@ const About: React.FunctionComponent = () => (
                 <p>
                   Aldrin is an ecommerce wunderkind that graduated from college in his hometown by
                   age 20 and spent the next few years at Deloitte Digital helping top Fortune 500
-                  companies bring their ecommerce departments into the modern age. If I could have had him continue working for me I would've in a heartbeat!
+                  companies bring their ecommerce departments into the modern age. If I could have had him continue working for me I would've in a heartbeat! ~ Manager
                 </p>
                 <br/>
                 <p>A prolific
                   programmer, designer, and marketer, he's well versed in the entire technology and
                   marketing stack required for ecommerce. Through his experience he's cultivated and
                   documented a set of strategies and methods for building great ecommerce
-                  experiences that he enjoys sharing with others.</p>
+                  experiences that he enjoys sharing with others. ~ Peer</p>
               </blockquote>
               <p>
-                If you're like me when I started my ecommerce journey, you're probably thinking "where the hell do I start?". When I first began working on first ecommerce store I was desperate to work for myself. I wanted to make a living for myself rather than working a 9-5 job. I'd seen people posting about their success online and wanted that lifestyle but I was still a little skeptical. After all there's no such thing as a free lunch. 
+                If you're like me when I started my ecommerce journey, you're probably thinking "where the hell do I start?". This blog is meant to help folks who are thinking the same thing I was many years ago.
               </p>
 
-              <p>Unsurprisingly, when I started I had a much harder time than I anticipated. I had about $500 saved and blew the first $300 getting my logo, site, hosting, and apps installed leaving me about $200 for advertising. Definitely not what I would do if I could do it again. </p>
-              <p>I then started playing it much safer.</p>
-              <p>I spent more time focusing on finding a great product. One I'd be proud to sell and customers would love. Then I spent hours studying the niche and identifying customer pain points and how businesses in the space operate.</p>
-              <p>This process was painful and time consuming.</p>
-              <p>So after spending more than 200 hours studying a niche and evaluating products I put together a comprehensive list of steps to evaluate products and a niche effectively and this has become my bread and butter for my dropshipping businesses.</p>
-
-              <p> And better yet I'm going to share some of those documented processes for FREE on this blog and via my private email list.</p>
-              <p>
-               While almost no other eCommerce folks provide a systematic way to learn more about the niche, I've found much greater success in my targeting as well as lower costs in my operations (lower testing costs, fewer returns and refunds, etc) by systematically evaluating customers and businesses in the niche. 
-              </p>
-              <p> Now you don't have to be an expert in the niche but I have a few key areas that I look at in order to better understand the target customer and market.</p>
+              
             </div>
           </PostFullContent>
         </article>
